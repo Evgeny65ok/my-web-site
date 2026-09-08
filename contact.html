@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты | Мой Сайт</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.ico" />
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo"><a href="index.html">🚀 МойСайт</a></div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="contact.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-btn">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-content">
+            <div class="container">
+                <h1>Свяжитесь с нами</h1>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>📞 Контакты</h2>
+                        <p><strong>Email:</strong> info@mysite.ru</p>
+                        <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+                        <p><strong>Адрес:</strong> г. Москва, ул. Примерная, д. 1</p>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>✉️ Напишите нам</h2>
+                        <form id="contactForm">
+                            <input type="text" id="name" placeholder="Ваше имя" required />
+                            <input type="email" id="email" placeholder="Ваш Email" required />
+                            <textarea id="message" rows="4" placeholder="Сообщение" required></textarea>
+                            <button type="submit" class="btn-primary">Отправить</button>
+                        </form>
+                        <p id="form-status" style="margin-top: 10px;"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-flex">
+            <p>&copy; 2026 МойСайт. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#">📘</a>
+                <a href="#">📸</a>
+                <a href="#">🐦</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
