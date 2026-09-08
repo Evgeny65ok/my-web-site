@@ -1,13 +1,6 @@
 
 # 🚀 МойСайт — Современный Сайт-визитка
 
-<p align="center">
-  <img src="https://shields.io" alt="HTML5" />
-  <img src="https://shields.io" alt="CSS3" />
-  <img src="https://shields.io" alt="JavaScript" />
-  <img src="https://shields.io" alt="Git" />
-  <img src="https://shields.io" alt="GitHub Pages" />
-</p>
 
 ---
 
