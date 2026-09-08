@@ -7,7 +7,7 @@
 ## 🌐 Живое демо
 
 Посмотреть проект в действии можно по ссылке:  
-🔗 **[https://[ТВОЙ_ЛОГИН].github.io/my-web-site](https://[ТВОЙ_ЛОГИН].github.io/my-web-site)**
+🔗 **https://evgeny65ok.github.io/my-web-site/**
 
 ---
 
